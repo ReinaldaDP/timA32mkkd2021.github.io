@@ -1,0 +1,138 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  float: right;
+  padding: 33px 50px;
+  color: #000080;
+  text-align: right;
+}
+
+.header {
+  background-color :rgb(248, 229, 206);
+  height: 500px;
+}
+
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+  color: #000080;
+}
+
+.main {
+  padding: 200px 40px;
+  text-align: center;
+  color: #000080;
+}
+
+.copy-container h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.copy-container p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.copy-container p {
+  font-size: 20px;
+}
+
+.contents {
+  height: 100px;
+  margin-top: 300px;
+  margin-bottom: 20px;
+}
+
+.contents-item {
+  float: center;
+  margin-bottom: 200px;
+}
+
+.btn {
+  padding: 20px 100px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.email {
+  background-color: #239b76;
+  margin-bottom: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+ margin: 10px 0;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.footer {
+  background-color: rgb(248, 229, 206);
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+  padding-left: 20px;
+  padding-top: 15px;
+  
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-top: 30px;
+  list-style: none;
+  text-align: left;
+}
+
+
